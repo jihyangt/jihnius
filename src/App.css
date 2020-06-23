@@ -1,0 +1,230 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 80px !important;
+  font-family: 'Helvetica Neue', sans-serif !important;
+  margin: 0;
+}
+
+h2 {
+  font-size: 70px !important;
+  margin: 0;
+}
+
+h3 {
+  font-size: 45px !important;
+  margin: 0;
+}
+
+h4 {
+  font-size: 25px !important;
+  margin: 0;
+}
+
+h5 {
+  font-size: 20px !important;
+  margin: 0;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Helvetica Neue', sans-serif !important;
+}
+
+.nav {
+  background-color: var(--off-white);
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+
+.nav-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  max-width: 1400px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.section {
+}
+
+.section-dark {
+  background: #333;
+  color: white;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.section-content-work {
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Home Page */
+.homepage-banner {
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-title {
+  text-align: center;
+  max-width: 375px;
+  overflow: hidden;
+}
+
+.homepage-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homepage-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.homepage-img {
+  background: grey;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 10px 10px;
+  border: solid black 1px;
+  min-height: 500px;
+  
+}
+
+
+.homepage-info > h6 {
+  font-size: 110%;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.pp-home {
+  width: 100%;
+  height: auto;
+  /* filter: grayscale(); */
+  /* border: solid black 1px; */
+}
+
+/* About Me */
+.pp {
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-right: 2rem;
+  min-height: 200px;
+  min-width: 200px;
+  background-image: url('./assets/Saycheese.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;  
+}
+
+.about-grid-info {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  justify-content: center;
+  text-align: right;
+  margin: 0 auto;
+}
+
+.about-skills-subtitle {
+  margin-top: 0;
+}
+
+.contact-icons {
+  font-size: 34px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon {
+  margin: 20px;
+  color: pink;
+}
+
+.contact-icon:hover {
+  font-size: 50px;
+  color: red;
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
