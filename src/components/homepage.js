@@ -15,7 +15,7 @@ export default class HomePage extends Component {
               <h3 style={{marginBottom: '0px'}}>Marketer</h3>
             </div>
             <div className="homepage-img"> 
-              
+              <img className='pp-home' src={require('../assets/homep.png')}></img>
             </div>
           </div>
         </div>   

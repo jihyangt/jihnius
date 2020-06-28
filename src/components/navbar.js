@@ -64,6 +64,7 @@ export default class Navbar extends Component {
                 to="/"
                 offset={-70}
                 duration={500}
+                className="navigation"
               >
                 Home
               </NavLink>) : (<Link
@@ -73,6 +74,7 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                className="navigation"
               >
                 Home
               </Link>)
@@ -89,6 +91,7 @@ export default class Navbar extends Component {
                 }}
                 offset={-70}
                 duration={500}
+                className="navigation"
               >
                 Work
               </NavLink>) : 
@@ -99,6 +102,7 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                className="navigation"
               >
                 Work
               </Link>) }
@@ -108,6 +112,7 @@ export default class Navbar extends Component {
                 to="/about"
                 offset={-70}
                 duration={500}
+                className="navigation"
               >
                 About
               </NavLink>

@@ -21,6 +21,24 @@ p {
 }
 }
 
+.CustomTriggerCSS{
+    color: black;
+    background-color: white !important;
+    text-decoration: none;
+}
+
+.CustomTriggerCSS:hover {
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+}
+
+.CustomTriggerCSS--open {
+    color: transparent !important;
+    -webkit-text-stroke: 2px black !important;
+    background-color: white !important;
+}
+
+
 //The link which when clicked opens the collapsable area
 .Collapsible__trigger {
 display: block;
@@ -31,34 +49,58 @@ padding: 10px;
 color: black;
 background-color: var(--off-white);
 width: 100%;
-height: 120px;
+min-height: 120px;
 line-height: 120px;
+height: 30%;
 // box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 font-size: 45px;
 font-family: 'Helvetica Neue', sans-serif !important;
 border-bottom: solid 1px lightgray;
 border-top: solid 1px lightgray;
 
-&:after {
-    font-family: 'FontAwesome';
-    content: '\f107';
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    display: block;
-    transition: transform 300ms;
-}
+// &#text {
+//     color: var(--mainColor);
+//     text-decoration: none;
+//   }
+  
+// &#text:active {
+//     color: transparent;
+//     -webkit-text-stroke: 2px var(--mainColor);
+// }
+
+// &:after {
+//     font-family: 'FontAwesome';
+//     content: '\f107';
+//     position: absolute;
+//     right: 10px;
+//     top: 10px;
+//     display: block;
+//     transition: transform 300ms;
+// }
 
 &.is-open {
     &:after {
     transform: rotateZ(180deg);
     }
+
+    &#text {
+        color: transparent;
+        -webkit-text-stroke: 2px var(--mainColor);
+      }
 }
 
 &.is-disabled {
     opacity: 0.5;
     background-color: grey;
 }
+}
+
+
+@media (max-width: 600px) {
+    .Collapsible__trigger{
+        line-height: 100%;
+        min-height: 130%;
+    }
 }
 
 .CustomTriggerCSS {
