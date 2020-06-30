@@ -9,7 +9,7 @@ class Work extends Component {
       <div id="page-container">
         <Collapisble transitionTime={400} trigger="UBC Engineering" triggerClassName="CustomTriggerCSS" triggerOpenedClassName="CustomTriggerCSS--open">
           <div className="bcgj-main">
-            <div style={{maxWidth:'700px'}}>
+            <div style={{maxWidth:'700px', marginTop: '20px'}}>
               <h5>
               UBC Engineering Co-op is the largest co-op program in Western Canada and one of the most successful programs in the country. Industry leaders look to us as their first choice when recruiting engineering talent, and our students benefit from paid, relevant, and technical work experiences that help them become the engineers of tomorrow.
               </h5>
@@ -29,12 +29,24 @@ class Work extends Component {
           <div className="bcgj-main">
             <h3>LinkedIn A/B Campaign</h3>
             <div className="bcgj-poster">
+              <div>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-1-1.jpg')}></img>
+                <h5>LinkedIn 1-1</h5>
+              </div>
+              <div>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-1-2.jpg')}></img>
+                <h5>LinkedIn 1-2</h5>
+              </div>
             </div>
             <div className="bcgj-poster">
+              <div>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-2-1.jpg')}></img>
+                <h5>LinkedIn 2-1</h5>
+              </div>
+              <div>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-2-2.jpg')}></img>
+                <h5>LinkedIn 2-2</h5>
+              </div>
             </div>
           </div>
           <div className="bcgj-main">
@@ -42,7 +54,7 @@ class Work extends Component {
             <h5>Visualizations were produced with Linkedin Ad Data and Python utilizing Plotly and Pandas plotting libraries</h5>
             <div>
               <h3 style={{marginTop: '50px'}}>Performance</h3>
-              <div className="bcgj-poster">
+              <div className="graphs-box">
                 <iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/6.embed"></iframe>
                 <div style={{maxWidth: '620px'}}>
                   <p>
@@ -67,18 +79,31 @@ class Work extends Component {
           </div>
           <div className="bcgj-main">
             <h3>Demographics</h3>
-            <div className="bcgj-poster">
+            <div className="graphs-box">
               <div>
                 <iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/8.embed"></iframe>
+                <p>This graph analyzes who clicks our Ad and the company size they are in. This graph allows us to quickly identify the most engaged company sizes, which are:</p>
+                <p>A) Small companies (1-50 employees)</p>
+                <p>B) Very large organizations (>10000 employees)</p>
+                <p>C) Medium companies(51-200)</p>
               </div>
               <div>
                 <iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/10.embed"></iframe>
+                <p>
+                This treemap analyzes who clicks our Ad and the industry they are in. From this visualization, we are able to prioritize our most engaging industries to-date which are:</p>
+
+                <p> A) Oil and Energy</p>
+                <p>B) Construction</p>
+                <p>C)Computer Software</p>
+
+                <p>From this visualization, we will be able to perform business development/sales strategies to prioritize our actions, to better increase our conversion rate.</p>
+
               </div>
             </div>
           </div>
           <div className="bcgj-main">
             <h3>Internal Communication Designs</h3>
-            <div className="bcgj-poster">
+            <div style={{display: 'block'}}>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Supervisor Guidelines_0001.jpg')}></img>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Supervisor Guidelines_0002.jpg')}></img>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Supervisor Guidelines_0003.jpg')}></img>

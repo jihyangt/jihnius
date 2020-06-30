@@ -66,6 +66,7 @@ h4 {
 
 h5 {
   font-size: 1.5em !important;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -176,6 +177,13 @@ li {
   display: flex;
   flex-direction: column;
   text-align: left;
+}
+
+.homepage-desc {
+  display: flex;
+  flex-direction: column;
+  font-size: 3em;
+  line-height: 1em;
 }
 
 .homepage-img {
@@ -292,6 +300,12 @@ li {
 .bcgj-poster{
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.graphs-box{
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
