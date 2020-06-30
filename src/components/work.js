@@ -16,11 +16,33 @@ class Work extends Component {
           </div>
           <div className="bcgj-main">
             <h3>External Assets</h3>
-            
+            <div className="bcgj-poster">
+              <div>
+                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/001.jpg')}></img>
+              </div>
+              <div>
+                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/002.jpg')}></img>
+              </div>
+            </div>
           </div>
           <div className="bcgj-main">
             <h3>LinkedIn A/B Campaign</h3>
-            
+            <div className="bcgj-poster">
+              <div>
+                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-1-1.jpg')}></img>
+              </div>
+              <div>
+                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-1-2.jpg')}></img>
+              </div>
+            </div>
+            <div className="bcgj-poster">
+              <div>
+                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-2-1.jpg')}></img>
+              </div>
+              <div>
+                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-2-2.jpg')}></img>
+              </div>
+            </div>
           </div>
           <div className="bcgj-main">
             <h3>Marketing Analytics</h3>
@@ -32,11 +54,28 @@ class Work extends Component {
           </div>
           <div className="bcgj-main">
             <h3>Internal Communication Designs</h3>
-            
+            <div className="bcgj-poster">
+              <div>
+                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Supervisor Guidelines_0001.jpg')}></img>
+              </div>
+              <div>
+                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Supervisor Guidelines_0002.jpg')}></img>
+              </div>
+              <div>
+                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Supervisor Guidelines_0003.jpg')}></img>
+              </div>
+            </div>
           </div>
           <div className="bcgj-main">
             <h3>Christmas Greetings!</h3>
-            
+            <div className="bcgj-poster">
+              <div>
+                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Seasons Greetings 2019_B.jpg')}></img>
+              </div>
+              <div>
+                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Seasons Greetings 2019_C.jpg')}></img>
+              </div>
+            </div>
           </div>
           <div className="bcgj-main">
             <h5>Check out my web-Development for UBC Engineering: </h5>
@@ -53,41 +92,41 @@ class Work extends Component {
             <h5>A 48-hour event where game enthusiasts come together and create a game based on a theme</h5>
             <div className="bcgj-poster">
               <div>
-                <img className='bcgj-pic-main' src={require('../assets/ggj/GameJam_Poster.jpg')}></img>
+                <img className='bcgj-pic-main shadow' src={require('../assets/ggj/GameJam_Poster.jpg')}></img>
               </div>
               <div>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/FfD48Ryepv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe className="shadow" width="560" height="315" src="https://www.youtube.com/embed/FfD48Ryepv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
             <div className="bcgj-main">
               <h3>Pre-Event Promotions</h3>
               <div className="grid">
-                <img className='bcgj-pic' src={require('../assets/ggj/GameJam_Countdown4.jpg')}></img>
-                <img className='bcgj-pic' src={require('../assets/ggj/GameJam_Countdown3.jpg')}></img>
-                <img className='bcgj-pic' src={require('../assets/ggj/GameJam_Countdown2.jpg')}></img>
-                <img className='bcgj-pic' src={require('../assets/ggj/GameJam_Countdown1.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/GameJam_Countdown4.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/GameJam_Countdown3.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/GameJam_Countdown2.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/GameJam_Countdown1.jpg')}></img>
               </div>
             </div>
             <div className="bcgj-main">
               <h3>Main Event Gallery</h3>
               <div className="grid">
-                <img className='bcgj-pic' src={require('../assets/ggj/GameJam_Photo1.jpg')}></img>
-                <img className='bcgj-pic' src={require('../assets/ggj/GameJam_Photo2.jpg')}></img>
-                <img className='bcgj-pic' src={require('../assets/ggj/GameJam_Photo3.jpg')}></img>
-                <img className='bcgj-pic' src={require('../assets/ggj/GameJam_Photo4.jpg')}></img>
-                <img className='bcgj-pic' src={require('../assets/ggj/GameJam_Photo5.jpg')}></img>
-                <img className='bcgj-pic' src={require('../assets/ggj/GameJam_Photo6.jpg')}></img>
-                <img className='bcgj-pic' src={require('../assets/ggj/GameJam_Photo7.jpg')}></img>
-                <img className='bcgj-pic' src={require('../assets/ggj/GameJam_Photo8.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/GameJam_Photo1.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/GameJam_Photo2.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/GameJam_Photo3.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/GameJam_Photo4.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/GameJam_Photo5.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/GameJam_Photo6.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/GameJam_Photo7.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/GameJam_Photo8.jpg')}></img>
               </div>
             </div>
             <div className="bcgj-main">
               <h3>Our Sponsors</h3>
               <div className="grid">
                 <img className='bcgj-pic' src={require('../assets/ggj/Logo_Eastside.png')}></img>
-                <img className='bcgj-pic' src={require('../assets/ggj/Logo_Raccoopackstudios.jpg')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/Logo_Raccoopackstudios.jpg')}></img>
                 <img className='bcgj-pic' src={require('../assets/ggj/Logo_Hellbent.png')}></img>
-                <img className='bcgj-pic' src={require('../assets/ggj/Logo_Kabam.png')}></img>
+                <img className='bcgj-pic shadow' src={require('../assets/ggj/Logo_Kabam.png')}></img>
               </div>
             </div>
             <h4>BC Game Jam Social Media</h4>

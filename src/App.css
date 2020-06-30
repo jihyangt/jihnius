@@ -340,3 +340,7 @@ h2, h3, h4, h5 {
   transform: rotate(360deg);
   transition-duration: 1s;
 }
+
+.shadow {
+  box-shadow: 0 30px 40px 0 rgba(16, 36, 94, 0.2);
+}
