@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1a92d1453ddba4666b255a1ab988d27",
+    "revision": "c9e6d17bdf45fde959939fdbc55cb086",
     "url": "/jihnius/index.html"
   },
   {
-    "revision": "1df933f4f0b44796eb07",
-    "url": "/jihnius/static/css/main.88fbd28a.chunk.css"
+    "revision": "66e92a864bdc1b27b8a4",
+    "url": "/jihnius/static/css/main.53b0f41d.chunk.css"
   },
   {
-    "revision": "fe0d1ac9aff03c6d0526",
-    "url": "/jihnius/static/js/2.6f9a03b9.chunk.js"
+    "revision": "305c46ef35eb427dcc1f",
+    "url": "/jihnius/static/js/2.9e5a66fe.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/jihnius/static/js/2.6f9a03b9.chunk.js.LICENSE.txt"
+    "url": "/jihnius/static/js/2.9e5a66fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1df933f4f0b44796eb07",
-    "url": "/jihnius/static/js/main.9dad9323.chunk.js"
+    "revision": "66e92a864bdc1b27b8a4",
+    "url": "/jihnius/static/js/main.1406c3b1.chunk.js"
   },
   {
     "revision": "b67f278de4bb104cd49d",
     "url": "/jihnius/static/js/runtime-main.6dae654d.js"
+  },
+  {
+    "revision": "cbc13437674a60aa8724ba3c55e7c99c",
+    "url": "/jihnius/static/media/001.cbc13437.jpg"
+  },
+  {
+    "revision": "d9f6c93ae733c930cf2120b7073f0bce",
+    "url": "/jihnius/static/media/002.d9f6c93a.jpg"
   },
   {
     "revision": "d6a29860c93799da922a33368c44699a",
@@ -80,6 +88,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jihnius/static/media/Jih-Yang Tan_Resume.3bec8b73.pdf"
   },
   {
+    "revision": "7d9ce1926c4e2802371e7407e764d4a2",
+    "url": "/jihnius/static/media/Linkedin AB-1-1.7d9ce192.jpg"
+  },
+  {
+    "revision": "cf00087744f07386026e2fe9b08e5e80",
+    "url": "/jihnius/static/media/Linkedin AB-1-2.cf000877.jpg"
+  },
+  {
+    "revision": "06827a8fe0062d72f532761440c1e0b5",
+    "url": "/jihnius/static/media/Linkedin AB-2-1.06827a8f.jpg"
+  },
+  {
+    "revision": "6f136954706b048e59c01e29e489e7f4",
+    "url": "/jihnius/static/media/Linkedin AB-2-2.6f136954.jpg"
+  },
+  {
     "revision": "7b34c5aabcaa605e4f2c48afb43f9aa2",
     "url": "/jihnius/static/media/Logo_Eastside.7b34c5aa.png"
   },
@@ -118,6 +142,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "23b4f5ae917194b77b9907fab3f54d19",
     "url": "/jihnius/static/media/Saycheese.23b4f5ae.jpg"
+  },
+  {
+    "revision": "6be01be18c4386a1f181cc1c3f51ecad",
+    "url": "/jihnius/static/media/Seasons Greetings 2019_B.6be01be1.jpg"
+  },
+  {
+    "revision": "4b02cf05bfd99805029acdbd9a33900e",
+    "url": "/jihnius/static/media/Seasons Greetings 2019_C.4b02cf05.jpg"
+  },
+  {
+    "revision": "eed368135b80ffca57fce7afbfec2424",
+    "url": "/jihnius/static/media/Supervisor Guidelines_0001.eed36813.jpg"
+  },
+  {
+    "revision": "a1be0f47052870fb69eb6b1cddb63831",
+    "url": "/jihnius/static/media/Supervisor Guidelines_0002.a1be0f47.jpg"
+  },
+  {
+    "revision": "5cd39980799e129b1501732393ea53fc",
+    "url": "/jihnius/static/media/Supervisor Guidelines_0003.5cd39980.jpg"
   },
   {
     "revision": "d642a6c66e46cb47333f67b4cd5b611c",
