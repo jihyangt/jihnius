@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Collapisble from 'react-collapsible'
+import Graphs from './graphs'
 import '../assets/Collapsible.scss';
 
 class Work extends Component {
@@ -15,55 +16,72 @@ class Work extends Component {
             </div>
           </div>
           <div className="bcgj-main">
-            <h3>External Assets</h3>
+            <h3>Campus Promotions</h3>
             <div className="bcgj-poster">
-              <div>
-                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/001.jpg')}></img>
-              </div>
-              <div>
-                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/002.jpg')}></img>
-              </div>
+              <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/001.jpg')}></img>
+              <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/002.jpg')}></img>
+            </div>
+            <div>
+              <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Eng_Coop1.jpg')}></img>
+              <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Eng_Coop2.jpg')}></img>
             </div>
           </div>
           <div className="bcgj-main">
             <h3>LinkedIn A/B Campaign</h3>
             <div className="bcgj-poster">
-              <div>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-1-1.jpg')}></img>
-              </div>
-              <div>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-1-2.jpg')}></img>
-              </div>
             </div>
             <div className="bcgj-poster">
-              <div>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-2-1.jpg')}></img>
-              </div>
-              <div>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-2-2.jpg')}></img>
-              </div>
             </div>
           </div>
           <div className="bcgj-main">
             <h3>Marketing Analytics</h3>
-            
+            <h5>Visualizations were produced with Linkedin Ad Data and Python utilizing Plotly and Pandas plotting libraries</h5>
+            <div>
+              <h3 style={{marginTop: '50px'}}>Performance</h3>
+              <div className="bcgj-poster">
+                <iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/6.embed"></iframe>
+                <div style={{maxWidth: '620px'}}>
+                  <p>
+                  This regression line provides a better understanding of campaign performance over time. We can see that total engagement increases around Day 0-14 and remains roughly stable. After performing and executing A/B Testing, we saw a 20-30% increase in Total Engagement over each of our A/B test groups, whilst maintaining the same budget.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/1.embed"></iframe>
+                <div style={{maxWidth: '620px'}}>
+                  <p>
+                    To investigate the Social Engagement Rate for each A/B test, I made a boxplot to break down reactions, shares, comments, and some clicks on links, videos, and images. On this boxplot, we can clearly see that Linkedin 2-2 is performing worse than its counterparts. This leaves us with 3 well-performing ads to run
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <iframe width="1000" height="700" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/4.embed"></iframe>
+              <h3>Press Play!</h3>
+              <p>This interactive graph shows the Clicks/Ad over time. In addition, I've included budget in the x-axis so we can clearly see the Total CAD Spent vs Clicks for each individual A/B test, this allows us to evaluate Ad ROI(Return on Investment) and effectiveness. Linkedin 2-2 halted around day 15 because it was performing less than expected.</p>
+            </div>
           </div>
           <div className="bcgj-main">
             <h3>Demographics</h3>
-            
+            <div className="bcgj-poster">
+              <div>
+                <iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/8.embed"></iframe>
+              </div>
+              <div>
+                <iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/10.embed"></iframe>
+              </div>
+            </div>
           </div>
           <div className="bcgj-main">
             <h3>Internal Communication Designs</h3>
             <div className="bcgj-poster">
-              <div>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Supervisor Guidelines_0001.jpg')}></img>
-              </div>
-              <div>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Supervisor Guidelines_0002.jpg')}></img>
-              </div>
-              <div>
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Supervisor Guidelines_0003.jpg')}></img>
-              </div>
             </div>
           </div>
           <div className="bcgj-main">
@@ -144,18 +162,18 @@ class Work extends Component {
             </div>
           </div>
         </Collapisble>
-        <Collapisble transitionTime={400} trigger="UBC TA" triggerClassName="CustomTriggerCSS" triggerOpenedClassName="CustomTriggerCSS--open">
+        <Collapisble transitionTime={400} trigger="UBC Taiwanese Association" triggerClassName="CustomTriggerCSS" triggerOpenedClassName="CustomTriggerCSS--open">
           <div style={{paddingBottom: '30px'}}>
             <h3>Mission</h3>
-            <h4>促進會員間的交流 Enhance communications between individuals</h4>
+            <p>促進會員間的交流 - Enhance communications between individuals</p>
 
-            <h4>推廣臺灣文化和促進其他文化與會員的交流 Promote Taiwanese culture</h4>
+            <p>推廣臺灣文化和促進其他文化與會員的交流 - Promote Taiwanese culture</p>
 
-            <h4>提供會員額外的學術活動 Provide Extracurricular Activities Opportunities</h4>
+            <p>提供會員額外的學術活動 - Provide Extracurricular Activities Opportunities</p>
 
-            <h4>保持政治和宗教中立 Remain neutral in political and religious views</h4>
+            <p>保持政治和宗教中立 - Remain neutral in political and religious views</p>
 
-            <h4>不營利、自動自發 Achiving a non-profit and self-motivated organization</h4>
+            <p>不營利、自動自發 - Achiving a non-profit and self-motivated organization</p>
           </div>
 
           <div className="bcgj-main">
@@ -169,15 +187,14 @@ class Work extends Component {
               </div>
             </div>
             <div className="bcgj-main">
-              <h3>Social Media Promotion</h3>
+              <h3 style={{marginBottom: '30px', marginTop: '30px'}}>Social Media Promotion</h3>
               <div className="bcgj-main">
-                <img className='ta-pic' src={require('../assets/ubcta/Poster_Basketball.jpg')}></img>
-                <img className='ta-pic' src={require('../assets/ubcta/Poster_Club.jpg')}></img>
-                {/* <img className='bcgj-pic' src={require('../assets/ubcta/Poster_Food.jpg')}></img> */}
-                <img className='ta-pic' src={require('../assets/ubcta/Poster_Illuminated.jpg')}></img>
-                <img className='ta-pic' src={require('../assets/ubcta/Poster_Sugar.jpg')}></img>
-                <img className='ta-pic' src={require('../assets/ubcta/Poster_Play.jpg')}></img>
-                <img className='ta-pic' src={require('../assets/ubcta/Poster_Valentines.jpg')}></img>
+                <img className='ta-pic shadow' src={require('../assets/ubcta/Poster_Foodie.jpg')}></img>
+                <img className='ta-pic shadow' src={require('../assets/ubcta/Poster_Basketball.jpg')}></img>
+                <img className='ta-pic shadow' src={require('../assets/ubcta/Poster_Club.jpg')}></img>
+                <img className='ta-pic shadow' src={require('../assets/ubcta/Poster_Food.jpg')}></img>
+                <img className='ta-pic shadow' src={require('../assets/ubcta/Poster_Illuminated.jpg')}></img>
+                <img className='ta-pic shadow' src={require('../assets/ubcta/Poster_Sugar.jpg')}></img>
               </div>
             </div>
             <h4>UBCTA Social Media</h4>

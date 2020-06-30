@@ -10,8 +10,17 @@ export default class Navbar extends Component {
       homepage: false,
       workpage: false,
       aboutpage: false,
+      width: 0, height: 0
     };
   }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions = () => {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  };
 
   scrollToTop = () => {
     scroll.scrollToTop();
@@ -45,6 +54,9 @@ export default class Navbar extends Component {
     } else (
       this.setState({homepage: true})
     )
+
+    this.updateWindowDimensions();
+    window.addEventListener("resize", this.updateWindowDimensions);
   }
 
   render() {
@@ -119,6 +131,27 @@ export default class Navbar extends Component {
             </li>
           </ul>
         </div>
+
+        {/* {this.state.width < 768 && (
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav-mobile navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        )} */}
       </nav>
     );
   }
