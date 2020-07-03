@@ -63,12 +63,12 @@ export default class Navbar extends Component {
     return (
       <nav className="nav" id="navbar">
         <div className="nav-content">
-          <img
+          {/* <img
             src={logo}
             className="nav-logo"
             alt="Logo"
             onClick={this.scrollToTop}
-          />
+          /> */}
           <ul className="nav-items">
             <li className="nav-item" onClick={this.clickHome}>
               { this.state.aboutpage ? 
