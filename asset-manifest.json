@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/jihnius/static/css/main.ab784fbb.chunk.css",
-    "main.js": "/jihnius/static/js/main.c4e04646.chunk.js",
-    "main.js.map": "/jihnius/static/js/main.c4e04646.chunk.js.map",
+    "main.css": "/jihnius/static/css/main.64a23df0.chunk.css",
+    "main.js": "/jihnius/static/js/main.e0227418.chunk.js",
+    "main.js.map": "/jihnius/static/js/main.e0227418.chunk.js.map",
     "runtime-main.js": "/jihnius/static/js/runtime-main.6dae654d.js",
     "runtime-main.js.map": "/jihnius/static/js/runtime-main.6dae654d.js.map",
-    "static/js/2.f58194e5.chunk.js": "/jihnius/static/js/2.f58194e5.chunk.js",
-    "static/js/2.f58194e5.chunk.js.map": "/jihnius/static/js/2.f58194e5.chunk.js.map",
+    "static/js/2.06b713e3.chunk.js": "/jihnius/static/js/2.06b713e3.chunk.js",
+    "static/js/2.06b713e3.chunk.js.map": "/jihnius/static/js/2.06b713e3.chunk.js.map",
     "index.html": "/jihnius/index.html",
-    "precache-manifest.713db775c3ceaa5aaf637a770fee8127.js": "/jihnius/precache-manifest.713db775c3ceaa5aaf637a770fee8127.js",
+    "precache-manifest.def52c0439ec02f6cf4ca48b64d336ad.js": "/jihnius/precache-manifest.def52c0439ec02f6cf4ca48b64d336ad.js",
     "service-worker.js": "/jihnius/service-worker.js",
-    "static/css/main.ab784fbb.chunk.css.map": "/jihnius/static/css/main.ab784fbb.chunk.css.map",
-    "static/js/2.f58194e5.chunk.js.LICENSE.txt": "/jihnius/static/js/2.f58194e5.chunk.js.LICENSE.txt",
+    "static/css/main.64a23df0.chunk.css.map": "/jihnius/static/css/main.64a23df0.chunk.css.map",
+    "static/js/2.06b713e3.chunk.js.LICENSE.txt": "/jihnius/static/js/2.06b713e3.chunk.js.LICENSE.txt",
     "static/media/001.jpg": "/jihnius/static/media/001.cbc13437.jpg",
     "static/media/002.jpg": "/jihnius/static/media/002.d9f6c93a.jpg",
     "static/media/Eng_Coop1.jpg": "/jihnius/static/media/Eng_Coop1.ed60e5c3.jpg",
     "static/media/Eng_Coop2.jpg": "/jihnius/static/media/Eng_Coop2.03b30e4d.jpg",
+    "static/media/Engcoop_charts1.png": "/jihnius/static/media/Engcoop_charts1.bf644247.png",
+    "static/media/Engcoop_charts2.png": "/jihnius/static/media/Engcoop_charts2.915440a4.png",
+    "static/media/Engcoop_charts4.png": "/jihnius/static/media/Engcoop_charts4.389787bc.png",
+    "static/media/Engcoop_charts5.png": "/jihnius/static/media/Engcoop_charts5.91d05a91.png",
+    "static/media/Engcoop_charts6.jpg": "/jihnius/static/media/Engcoop_charts6.bbd30f5f.jpg",
     "static/media/GameJam_Countdown1.jpg": "/jihnius/static/media/GameJam_Countdown1.d6a29860.jpg",
     "static/media/GameJam_Countdown2.jpg": "/jihnius/static/media/GameJam_Countdown2.8041d3be.jpg",
     "static/media/GameJam_Countdown3.jpg": "/jihnius/static/media/GameJam_Countdown3.c79b3e54.jpg",
@@ -53,8 +58,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6dae654d.js",
-    "static/js/2.f58194e5.chunk.js",
-    "static/css/main.ab784fbb.chunk.css",
-    "static/js/main.c4e04646.chunk.js"
+    "static/js/2.06b713e3.chunk.js",
+    "static/css/main.64a23df0.chunk.css",
+    "static/js/main.e0227418.chunk.js"
   ]
 }
