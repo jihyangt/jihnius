@@ -114,7 +114,8 @@ class Work extends Component {
               {this.state.mobile ? 
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Engcoop_charts6.jpg')}></img> :
                 <iframe width="1000" height="700"  frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/4.embed"></iframe>}
-              <h3>Press Play!</h3>
+              {!this.state.mobile &&       
+              <h3>Press Play!</h3>}
               <div className='graph-desc' >
                 <p>This interactive graph shows the Clicks/Ad over time. In addition, I've included budget in the x-axis so we can clearly see the Total CAD Spent vs Clicks for each individual A/B test, this allows us to evaluate Ad ROI(Return on Investment) and effectiveness. Linkedin 2-2 halted around day 15 because it was performing less than expected.</p>
               </div>
