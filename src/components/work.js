@@ -63,21 +63,21 @@ class Work extends Component {
             <h3>LinkedIn A/B Campaign</h3>
             <div className="bcgj-poster">
               <div className="bcgj-main">
-                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-1-1.jpg')}></img>
+                <img  style={{maxWidth: '500px'}} className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-1-1.jpg')}></img>
                 <h5>LinkedIn 1-1</h5>
               </div>
               <div className="bcgj-main">
-                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-1-2.jpg')}></img>
+                <img  style={{maxWidth: '500px'}} className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-1-2.jpg')}></img>
                 <h5>LinkedIn 1-2</h5>
               </div>
             </div>
             <div className="bcgj-poster">
               <div className="bcgj-main">
-                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-2-1.jpg')}></img>
+                <img style={{maxWidth: '500px'}} className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-2-1.jpg')}></img>
                 <h5>LinkedIn 2-1</h5>
               </div>
               <div className="bcgj-main">
-                <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-2-2.jpg')}></img>
+                <img  style={{maxWidth: '500px'}} className='bcgj-pic-main shadow' src={require('../assets/ecoop/Linkedin AB-2-2.jpg')}></img>
                 <h5>LinkedIn 2-2</h5>
               </div>
             </div>
@@ -91,7 +91,8 @@ class Work extends Component {
                 <div className="graphs-box">
                   {this.state.mobile ? 
                   <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Engcoop_charts1.png')}></img> :
-                  <iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/6.embed"></iframe>}
+                  <iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/6.embed"></iframe>
+                  }
                   <div className='graph-desc'>
                     <p>
                     This regression line provides a better understanding of campaign performance over time. We can see that total engagement increases around Day 0-14 and remains roughly stable. After performing and executing A/B Testing, we saw a 20-30% increase in Total Engagement over each of our A/B test groups, whilst maintaining the same budget.
@@ -101,7 +102,7 @@ class Work extends Component {
                 <div className="graphs-box">
                   {this.state.mobile ? 
                     <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Engcoop_charts2.png')}></img> :
-                    <iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/1.embed"></iframe>}
+                    <iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/18.embed"></iframe>}
                   <div className='graph-desc'>
                     <p>
                       To investigate the Social Engagement Rate for each A/B test, I made a boxplot to break down reactions, shares, comments, and some clicks on links, videos, and images. On this boxplot, we can clearly see that Linkedin 2-2 is performing worse than its counterparts. This leaves us with 3 well-performing ads to run
@@ -113,7 +114,7 @@ class Work extends Component {
             <div className="graphs-box">
               {this.state.mobile ? 
                 <img className='bcgj-pic-main shadow' src={require('../assets/ecoop/Engcoop_charts6.jpg')}></img> :
-                <iframe width="1000" height="700"  frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/4.embed"></iframe>}
+                <iframe width="1000" height="700" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/20.embed"></iframe>}
               {!this.state.mobile &&       
               <h3>Press Play!</h3>}
               <div className='graph-desc' >
@@ -130,9 +131,11 @@ class Work extends Component {
                   <iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/8.embed"></iframe>}
                 <div className='graph-desc'>
                   <p>This graph analyzes who clicks our Ad and the company size they are in. This graph allows us to quickly identify the most engaged company sizes, which are:</p>
-                  <p>A) Small companies (1-50 employees)</p>
-                  <p>B) Very large organizations (>10000 employees)</p>
-                  <p>C) Medium companies(51-200)</p>
+                  <div style={{ marginLeft: '30px', textAlign: 'left' }}>
+                    <p>A) Small companies (1-50 employees)</p>
+                    <p>B) Very large organizations (>10000 employees)</p>
+                    <p>C) Medium companies(51-200)</p>
+                  </div>
                 </div>
               </div>
               <div className="graphs-box">
@@ -142,11 +145,11 @@ class Work extends Component {
                 <div className='graph-desc'>
                   <p>
                   This treemap analyzes who clicks our Ad and the industry they are in. From this visualization, we are able to prioritize our most engaging industries to-date which are:</p>
-
-                  <p> A) Oil and Energy</p>
-                  <p>B) Construction</p>
-                  <p>C)Computer Software</p>
-
+                  <div style={{ marginLeft: '30px', textAlign: 'center' }}>
+                    <p>A) Oil and Energy</p>
+                    <p>B) Construction</p>
+                    <p>C)Computer Software</p>
+                  </div>
                   <p>From this visualization, we will be able to perform business development/sales strategies to prioritize our actions, to better increase our conversion rate.</p>
                 </div>
               </div>
@@ -170,13 +173,40 @@ class Work extends Component {
           </div>
           <div className="bcgj-main">
             <h5>Check out my web-Development for UBC Engineering: </h5>
-            <h5><a href ="https://coop.engineering.ubc.ca">Engineering Co-op</a></h5>
-            <h5><a href ="https://pd.engineering.ubc.ca">Engineering Professional Development</a></h5>
+            <a href ="https://coop.engineering.ubc.ca"><img style={{maxWidth: '100px'}}className='bcgj-pic-main shadow' src={require('../assets/ecoop/ubceng.png')}></img></a>
+            <a href ="https://pd.engineering.ubc.ca"><img style={{maxWidth: '100px'}}className='bcgj-pic-main shadow' src={require('../assets/ecoop/ubcpd.png')}></img></a>
             
           </div>
         </Collapisble>
         <Collapisble transitionTime={400} trigger="Celtech" triggerClassName="CustomTriggerCSS" triggerOpenedClassName="CustomTriggerCSS--open">
-          <h5>Check out this website I made: <a href='http://celtech.com.my/'>Celtech</a></h5>
+          <h5>Check out this website I made:</h5>
+          <a href='http://celtech.com.my/'><img style={{maxWidth: '100px'}}className='bcgj-pic-main shadow' src={require('../assets/celtech/celtechlogo.png')}></img></a>
+          <h3>Analytics</h3>
+          <div className="graphs-box">
+            {this.state.mobile ? 
+              <img className='bcgj-pic-main shadow' src={require('../assets/celtech/Celtech_Chart1.png')}></img> :
+              <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/25.embed"></iframe>}
+            <div className='graph-desc' style={{marginBottom: '50px', marginTop: '30px'}}>
+              <p>This Bar Chart shows our regional B2C sales within 2019-2020, the bar charts are colored by Product Category, when you hover over each bar you can see the exact Revenue value and Product Category which makes it easy to compare with its corresponding values.</p>
+            </div>
+            {this.state.mobile ? 
+              <img className='bcgj-pic-main shadow' src={require('../assets/celtech/Celtech_Chart2.png')}></img> :
+              <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/27.embed"></iframe>}
+            <div className='graph-desc' style={{marginBottom: '50px', marginTop: '30px'}}>
+              <p>I conducted a B2B Estimated Regional market size analysis forecast for the years 2019-2023, from my estimates we developed Sales Strategies/Models to target leads in various regions. We learned that our strategies should constantly change based on time and we should be fluid in terms of the regions we target. There are a lot of fluctuations in our estimates which were primarily based on:</p>
+              <div style={{ marginLeft: '30px', textAlign: 'left' }}>
+                <p>1.The amount of commercial projects available</p>
+                <p>2.Competitor behaviour</p>
+                <p>3.Our Competitive Advantage</p>
+              </div>
+            </div>
+            {this.state.mobile ? 
+              <img className='bcgj-pic-main shadow' src={require('../assets/celtech/Celtech_Chart3.png')}></img> :
+              <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/37.embed"></iframe>}
+            <div className='graph-desc' style={{marginBottom: '50px', marginTop: '30px'}}>
+              <p>I created a funnel chart to asses the performance of our marketing funnels. I aggregated visits by office so I could also compare conversions between offices. From this funnel the conversion rates between Websites Visits - Requested Price are roughly the same(+-2%). But the Invoices conversion rate by our Kuala Lumpur office(53%) is surprising larger than Selangor(33%). We can use this information to evaluate what the Kuala Lumpur office is doing right and how we can help Selangor boost its invoices sent.</p>
+            </div>
+          </div>
         </Collapisble>
         <Collapisble transitionTime={400} trigger="BC Game Jam" triggerClassName="CustomTriggerCSS" triggerOpenedClassName="CustomTriggerCSS--open">
           <div className="bcgj-main">
