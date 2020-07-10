@@ -11,7 +11,7 @@ export default class HomePage extends Component {
               <h1 style={{marginLeft: '20px'}}>Jih-Yang Tan</h1>
               <br></br>
               {/* <div className='homepage-desc'> */}
-              <h3 style={{fontWeight: 'bold'}}>Results</h3>
+              <h3 style={{fontWeight: 'bold'}}>Data</h3>
               <h3 style={{fontWeight: 'bold'}}>Driven</h3>
               <h3>Marketer</h3>
               {/* </div> */}
