@@ -191,7 +191,7 @@ class Work extends Component {
             </div>
             {this.state.mobile ? 
               <img className='bcgj-pic-main shadow' src={require('../assets/celtech/Celtech_Chart2.png')}></img> :
-              <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/27.embed"></iframe>}
+              <iframe width="900" height="1500" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/27.embed"></iframe>}
             <div className='graph-desc' style={{marginBottom: '50px', marginTop: '30px'}}>
               <p>I conducted a B2B Estimated Regional market size analysis forecast for the years 2019-2023, from my estimates we developed Sales Strategies/Models to target leads in various regions. We learned that our strategies should constantly change based on time and we should be fluid in terms of the regions we target. There are a lot of fluctuations in our estimates which were primarily based on:</p>
               <div style={{ marginLeft: '30px', textAlign: 'left' }}>
@@ -202,7 +202,7 @@ class Work extends Component {
             </div>
             {this.state.mobile ? 
               <img className='bcgj-pic-main shadow' src={require('../assets/celtech/Celtech_Chart3.png')}></img> :
-              <iframe width="900" height="1400" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/37.embed"></iframe>}
+              <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jihyangt/37.embed"></iframe>}
             <div className='graph-desc' style={{marginBottom: '50px', marginTop: '30px'}}>
               <p>I created a funnel chart to asses the performance of our marketing funnels. I aggregated visits by office so I could also compare conversions between offices. From this funnel the conversion rates between Websites Visits - Requested Price are roughly the same(+-2%). But the Invoices conversion rate by our Kuala Lumpur office(53%) is surprising larger than Selangor(33%). We can use this information to evaluate what the Kuala Lumpur office is doing right and how we can help Selangor boost its invoices sent.</p>
             </div>
